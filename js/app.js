@@ -103,33 +103,41 @@
 
 
 
-// let age= prompt('enter your age')
-// let balance=20;
+let age = Number(prompt('Enter your age'));
+let balance = 20;
 
-// if(age<18){
-//   alert("only 18+ !!!")
-// }
-// let ticket= prompt('the number of tickets')
-// if(age==18 && ticket<=3){
-//   if(balance>=10){
-//     console.log('enjoy')
-//     console.log(`your balance:${balance-10}`)
-//   }else{
-//     alert("balance is not enough")
-//   }
-  
-// }else if(age==18 && ticket>3){
-//   console.log('only 3 ticket permitted')
+if (!isNaN(age)) {
+    if (age < 18) {
+        alert("Only 18+ !!!");
+    } else {
+        let ticket = Number(prompt('Enter the number of tickets'));
+        if (!isNaN(ticket)) {
+            if (age === 18 && ticket <= 3) {
+                if (balance >= 10) {
+                    console.log('Enjoy');
+                    console.log(`Your balance: ${balance - 10}`);
+                } else {
+                    alert("Balance is not enough");
+                }
+            } else if (age === 18 && ticket > 3) {
+                console.log('Only 3 tickets permitted');
+            } else {
+                if (balance >= 10) {
+                    console.log('Enjoy');
+                    console.log(`Your balance: ${balance - 10}`);
+                } else {
+                    alert("Balance is not enough");
+                }
+            }
+        } else {
+            console.log("Please enter a valid number for tickets");
+        }
+    }
+} else {
+    console.log("Please enter a valid number for age");
+}
 
-// }else{
-//   if(balance>=10){
-//     console.log('enjoy')
-//     console.log(`your balance:${balance-10}`)
-//   }else{
-//     alert("balance is not enough")
-//   }
-  
-// }
+
 
 
 

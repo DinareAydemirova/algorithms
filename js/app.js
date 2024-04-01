@@ -103,81 +103,80 @@
 
 
 
-let age = Number(prompt('Enter your age'));
-let balance = 20;
+// let age = Number(prompt('Enter your age'));
+// let balance = 20;
 
-if (!isNaN(age)) {
-    if (age < 18) {
-        alert("Only 18+ !!!");
-    } else {
-        let ticket = Number(prompt('Enter the number of tickets'));
-        if (!isNaN(ticket)) {
-            if (age === 18 && ticket <= 3) {
-                if (balance >= 10) {
-                    console.log('Enjoy');
-                    console.log(`Your balance: ${balance - 10}`);
-                } else {
-                    alert("Balance is not enough");
-                }
-            } else if (age === 18 && ticket > 3) {
-                console.log('Only 3 tickets permitted');
-            } else {
-                if (balance >= 10) {
-                    console.log('Enjoy');
-                    console.log(`Your balance: ${balance - 10}`);
-                } else {
-                    alert("Balance is not enough");
-                }
-            }
-        } else {
-            console.log("Please enter a valid number for tickets");
-        }
-    }
-} else {
-    console.log("Please enter a valid number for age");
+// if (!isNaN(age)) {
+//     if (age < 18) {
+//         alert("Only 18+ !!!");
+//     } else {
+//         let ticket = Number(prompt('Enter the number of tickets'));
+//         if (!isNaN(ticket)) {
+//             if (age === 18 && ticket <= 3) {
+//                 if (balance >= 10) {
+//                     console.log('Enjoy');
+//                     console.log(`Your balance: ${balance - 10}`);
+//                 } else {
+//                     alert("Balance is not enough");
+//                 }
+//             } else if (age === 18 && ticket > 3) {
+//                 console.log('Only 3 tickets permitted');
+//             } else {
+//                 if (balance >= 10) {
+//                     console.log('Enjoy');
+//                     console.log(`Your balance: ${balance - 10}`);
+//                 } else {
+//                     alert("Balance is not enough");
+//                 }
+//             }
+//         } else {
+//             console.log("Please enter a valid number");
+//         }
+//     }
+// } else {
+//     console.log("Please enter a valid number");
+// }
+
+
+
+
+
+
+
+
+
+
+
+let balance=100;
+
+function Balance(){
+    console.log("balans" , balance)
+}
+function medaxilEt(amount){
+    balance+=amount
+    console.log(amount + "azn daxil etdiniz")
+    Balance()
+}
+function mexaricEt(amount){
+    balance-=amount
+    console.log(amount + "azn balnsdan çıxarıldı")
+    Balance()
 }
 
+let press= prompt('1. balans 2 .medaxil 3.mexaric 4. çıxış')
 
-
-
-
-
-
-
-
-// let balance = 100;
-// function Balance() {
-//     console.log("Balans: " , balance);
-// }
-// function medaxilet(amount) {
-//     balance += amount;
-//     console.log(amount + " AZN mədaxil");
-//     Balance();
-// }
-// function mexaricet(amount) {
-//   balance -= amount;
-//   console.log(amount + " AZN mexaric olundu");
-//   Balance();
-// }
-
-// let press = prompt("1. Balans 2. medaxil et 3. mexaric et 4. Çıxış");
-
-// if (press === '1') {
-//   Balance();
-// } else if (press === '2') {
-//     let medaxil =prompt("Balansı daxil edin:");
-//     medaxilet(medaxil);
-   
-// } else if(press==='3')
-// {
-//  let mexaric=prompt("mexaric edin")
-//  mexaricet(mexaric)
-// }
-
-// else if (press === '4') {
-//     console.log("təşəkkürlər");
-// } else {
-//     console.log("yanlış dəyər");
-// }
+if(press==='1'){
+    Balance()
+}else if(press==='2'){
+    let medaxil=prompt('balansa daxil edin')
+    medaxilEt(medaxil)
+}else if(press==='3'){
+    let mexaric=prompt('balans daxil edin')
+    mexaricEt(mexaric)
+}else if(press=='4'){
+    console.log("təşəkkürlər")
+}else{
+    console.log("yanlış dəyər")
+}
 
 

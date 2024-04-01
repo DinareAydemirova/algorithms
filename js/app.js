@@ -147,36 +147,57 @@
 
 
 
-let balance=100;
+// let balance=100;
 
-function Balance(){
-    console.log("balans" , balance)
-}
-function medaxilEt(amount){
-    balance+=amount
-    console.log(amount + "azn daxil etdiniz")
-    Balance()
-}
-function mexaricEt(amount){
-    balance-=amount
-    console.log(amount + "azn balnsdan çıxarıldı")
-    Balance()
-}
+// function Balance(){
+//     console.log("balans" , balance)
+// }
+// function medaxilEt(amount){
+//     balance+=amount
+//     console.log(amount + "azn daxil etdiniz")
+//     Balance()
+// }
+// function mexaricEt(amount){
+//     balance-=amount
+//     console.log(amount + "azn balnsdan çıxarıldı")
+//     Balance()
+// }
 
-let press= prompt('1. balans 2 .medaxil 3.mexaric 4. çıxış')
+// let press= prompt('1. balans 2 .medaxil 3.mexaric 4. çıxış')
+// switch(press){
+//     case '1':
+//         Balance()
+//         break
+//     case '2':
+//         let medaxil= +prompt('balansa daxil edin')
+//         medaxilEt(medaxil)
+//         break
+//     case '3':
+//         let mexaric= +prompt('balans daxil edin')
+//          mexaricEt(mexaric)
+//          break
+//     case '4':
+//         console.log("təşəkkürlər")
+//         break
+//     default:
+//         console.log("yanlış dəyər")
+//         break
+// }
 
-if(press==='1'){
-    Balance()
-}else if(press==='2'){
-    let medaxil=prompt('balansa daxil edin')
-    medaxilEt(medaxil)
-}else if(press==='3'){
-    let mexaric=prompt('balans daxil edin')
-    mexaricEt(mexaric)
-}else if(press=='4'){
-    console.log("təşəkkürlər")
-}else{
-    console.log("yanlış dəyər")
-}
+
+
+// if(press==='1'){
+//     Balance()
+// }else if(press==='2'){
+//     let medaxil=prompt('balansa daxil edin')
+//     medaxilEt(medaxil)
+// }else if(press==='3'){
+//     let mexaric=prompt('balans daxil edin')
+//     mexaricEt(mexaric)
+// }else if(press=='4'){
+//     console.log("təşəkkürlər")
+// }else{
+//     console.log("yanlış dəyər")
+// }
 
 

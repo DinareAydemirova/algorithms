@@ -9,8 +9,6 @@
 //   alert("please enter valid password");
 // }
 
-
-
 // let money= prompt("enter your money")
 // let kq = prompt("enter kq")
 // if(!isNaN(money) && !isNaN(kq)){
@@ -27,7 +25,6 @@
 //     alert("enter valid number")
 // }
 
-
 // let season=prompt("enter season")
 
 // if(season=="winter"){
@@ -38,4 +35,45 @@
 //     alert("june july august")
 // }else if(season=="aotumn"){
 //     alert("september october november")
+// }
+
+
+
+// let fruit = prompt("name of the fruit");
+// let kg = Number(prompt("enter kg"));
+// let alma = 1;
+// let armud = 2;
+// switch (fruit) {
+//   case "alma":
+//     console.log(`${alma * kg} azn alma`);
+//     break;
+//   case "armud":
+//     console.log(`${armud * kg} azn armud`);
+//     break;
+//   default:
+//     console.log("bele meyve yoxdu");
+//     break;
+// }
+
+
+// let num= +prompt("enter numbrr")
+// let sum=0
+// for(let i=0; i<num.length; i++){
+//     let number =num[i]
+//     sum+=(number**3)
+   
+// }
+// if(sum==num){
+//     console.log(`armstrongdur ${num}`)
+// }else{
+//     console.log(`armstrong deyil ${num}`)
+// }
+
+
+
+// for(let i=1; i<=1000;i++){
+//     let num=i**2
+//     if(num<1000 && num>10){
+//         console.log(i**2)
+//     }
 // }

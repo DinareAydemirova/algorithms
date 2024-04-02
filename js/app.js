@@ -82,12 +82,12 @@
 // }
 // console.log(res1);
 
-let res = [5 , 6, -7,88,9,5,4];
-let num = res[0];
-for (let i=0; i<res.length;i++) {
-  let digit = res[i];
-  if (num < digit) {
-    num = digit;
-  }
-}
-console.log(num);
+// let res = [5 , 6, -7,88,9,5,4];
+// let num = res[0];
+// for (let i=0; i<res.length;i++) {
+//   let digit = res[i];
+//   if (num < digit) {
+//     num = digit;
+//   }
+// }
+// console.log(num);

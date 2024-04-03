@@ -174,3 +174,47 @@
 //   reverseName += name[i];
 // }
 // console.log(reverseName);
+
+
+
+
+const string="hello world"
+console.log(string)
+
+let result
+
+
+// result=string.charAt(1)
+// result=string.charAt(string.length-1)
+// result=string.charCodeAt(1)
+// result=string.codePointAt(1)
+// result=string.concat("  dinara")
+// result=string.endsWith("world")
+// result=string.includes("h")
+// result=string.indexOf("h")
+// result=string.lastIndexOf("l")
+// result=string.padEnd(20, "*")
+// result=string.repeat(3)
+// result=string.replace("world","dinara")
+// result=string.replaceAll("o","h")
+// result=string.slice(-6,-3)
+// result=string.split("")
+// result=string.substring(0 ,6)
+// result=string.toLocaleLowerCase()
+// result=string.toLocaleUpperCase()
+// result=string.trim()
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log( "c".localeCompare("b"))
+console.log(result)

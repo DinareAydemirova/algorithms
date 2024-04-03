@@ -119,11 +119,56 @@
 
 //? vurma cedveli
 
-// let num1=[1,2,3,4,5,6,7,8,9,10]
-// let num2 =[1,2,3,4,5,6,7,8,9,10]
-// for(let i=0; i<num1.length; i++){
-//     console.log("-------------------------")
-//     for(let j=0; j<num2.length; j++){
-//         console.log(`${num1[i]} x ${num2[j]} = ${num1[i]*num2[j]}`)
+// for(let i=1; i<10; i++){
+//     for(let j=1; j<10; j++){
+//         console.log(`${i} x ${j} = ${i*j}`)
 //     }
+//     console.log("-------------------------")
 // }
+
+//
+
+// let arr =[23, 17, 6, 45, 67, 34]
+// let min=arr[0]
+// let minindex=0
+// for(let i=0; i<arr.length;i++){
+//   if(min>arr[i]){
+//     min=arr[i]
+//     minindex=i
+//   }
+// }
+// console.log(minindex)
+
+//? arraydaki tek ededlerin cemini tapin
+
+// let arr = [23, 17, 6, 45, 67, 34];
+// sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = 2; j < arr[i]; j++) {
+//     if (arr[i] % j == 0) {
+//       sum = sum + arr[i];
+//       break;
+//     }
+//   }
+// }
+// console.log(sum);
+
+//? factorial
+
+// let num = Number(prompt("enter the number"));
+// let factorial = 1;
+// if(isNaN(num)){
+//     alert("enter number!")
+// }else{
+//     for (let i = 1; i <= num; i++) {
+//         factorial = factorial * i;
+//       }
+//       console.log(factorial);
+// }
+
+let name = "Dinara";
+reverseName = "";
+for (let i = name.length - 1; i >= 0; i--) {
+  reverseName += name[i];
+}
+console.log(reverseName);

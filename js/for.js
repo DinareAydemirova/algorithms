@@ -1,4 +1,4 @@
-// 1) Son rəqəmi 7 olan bütün ikirəqəmli ədədləri çapa verən proqram tərtib edin
+//?  1) Son rəqəmi 7 olan bütün ikirəqəmli ədədləri çapa verən proqram tərtib edin
 
 // for(let i=10; i<100; i++){
 //     if(i % 10==7){
@@ -6,7 +6,7 @@
 //     }
 // }
 
-// 2) Rəqəmləri eyni olan bütün ikirəqəmli ədədləri çapa verən proqram tərtib edin
+//?  2) Rəqəmləri eyni olan bütün ikirəqəmli ədədləri çapa verən proqram tərtib edin
 
 // for(let i = 10; i<100; i++){
 //     if(i % 11== 0){
@@ -14,14 +14,14 @@
 //     }
 // }
 
-// 3) verilmiş ədədi rəqəmlərinə ayıran proqram tərtib edin
+//?  3) verilmiş ədədi rəqəmlərinə ayıran proqram tərtib edin
 
 // let number = prompt("enter a number");
 // for (let i = 0; i < number.length; i++) {
 //   console.log(number[i]);
 // }
 
-// 4)  verilmiş ədədin rəqəmlərindən ən böyük olanı təyin edən proqram yazın
+//?  4)  verilmiş ədədin rəqəmlərindən ən böyük olanı təyin edən proqram yazın
 
 // let num = "988675";
 // let maxDigit =num[0]
@@ -36,7 +36,7 @@
 
 // console.log(maxDigit);
 
-// 5) verilmiş ədədin rəqəmlərinin cəmini , hasilini və ədədi ortasını tapan proqram tı=ərtib edin
+//?  5) verilmiş ədədin rəqəmlərinin cəmini , hasilini və ədədi ortasını tapan proqram tı=ərtib edin
 
 // let num = "675";
 // let sum = 0;
@@ -53,7 +53,7 @@
 // console.log("Product", product);
 // console.log("Average", average);
 
-// 6) verilmiş ədədin bütün bölənlərini tapan proqram tərtib edin
+//?  6) verilmiş ədədin bütün bölənlərini tapan proqram tərtib edin
 
 // let num = 36;
 // for (let i = 0; i <= num; i++) {
@@ -62,7 +62,7 @@
 //   }
 // }
 
-// 7) verilmiş ədədin bölənlərinin sayını tapan proqram yazın
+//?  7) verilmiş ədədin bölənlərinin sayını tapan proqram yazın
 
 // let num = 36;
 // let count = 0;

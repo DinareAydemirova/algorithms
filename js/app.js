@@ -91,3 +91,39 @@
 //   }
 // }
 // console.log(num);
+
+//?  1-500 arasi cut ededlerin cemi ile tek edrdlerin ceminin ferqlerinin menfi olub olmadigini yoxla
+
+// let sumEven=0
+// let sumOdd=0
+// for (let i = 1; i <=500; i++) {
+//     if(i%2==0){
+//         sumEven+=i
+//     }else if(i%2==1){
+//         sumOdd+=i
+//     }
+// }
+// if(sumEven-sumOdd<0){
+//     console.log("subtraction is negative:", sumEven-sumOdd  )
+// }else(
+//     console.log("subtraction is positive:", sumEven-sumOdd  )
+// )
+
+//? Fibonachi ededleri
+
+// let num=[0,1]
+// for(let i=2; i<10;i++){
+//     num[i]=num[i-1]+num[i-2]
+// }
+// console.log(num)
+
+//? vurma cedveli
+
+// let num1=[1,2,3,4,5,6,7,8,9,10]
+// let num2 =[1,2,3,4,5,6,7,8,9,10]
+// for(let i=0; i<num1.length; i++){
+//     console.log("-------------------------")
+//     for(let j=0; j<num2.length; j++){
+//         console.log(`${num1[i]} x ${num2[j]} = ${num1[i]*num2[j]}`)
+//     }
+// }

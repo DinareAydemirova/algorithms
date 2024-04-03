@@ -1,4 +1,4 @@
-// 1) İstifadəçidən 3 ədəd alın. Bu ədədlərin üçbucağın tərəfi olub olmadığını yoxlayan proqram tərtib edin
+//?  1) İstifadəçidən 3 ədəd alın. Bu ədədlərin üçbucağın tərəfi olub olmadığını yoxlayan proqram tərtib edin
 
 // let num1 = +prompt("enter side 1")
 // let num2 = +prompt ("enter side 2")
@@ -9,7 +9,7 @@
 //      console.log("This is not a triangle.");
 //  }
 
-// 2) İstifadəçidən 3 ədəd alın. Onların bərabərtərəfli üçbucaq olduğunu təyin edən proqram tərtib edin.
+//?  2) İstifadəçidən 3 ədəd alın. Onların bərabərtərəfli üçbucaq olduğunu təyin edən proqram tərtib edin.
 
 // let num1= prompt("enter side 1")
 // let num2 = prompt("enter sode 2")
@@ -20,7 +20,7 @@
 //     console.log("it is right triangle")
 // }
 
-// 3)  İstifadəçidən 2 ədəd alın. Hansının ən böyük olduğunu tapan proqram tərtib edin
+//?  3)  İstifadəçidən 2 ədəd alın. Hansının ən böyük olduğunu tapan proqram tərtib edin
 
 // let num1 = prompt("enter number")
 // let num2 = prompt("enter number")
@@ -33,7 +33,7 @@
 //     console.log(num1 ,"=",num2)
 // }
 
-// 4) İstifadəçidən 3 ədəd alın. Hansının ən böyük olduğunu tərtib edin.
+//?  4) İstifadəçidən 3 ədəd alın. Hansının ən böyük olduğunu tərtib edin.
 
 // let num1 = prompt("enter number")
 // let num2 = prompt("enter number")
@@ -50,7 +50,7 @@
 //     console.log("numbers are equal")
 // }
 
-// 5) İstifadəçidən 3 ədəd alın. Onları artan sıra ilə düzən proqram tərtib edin.
+//?  5) İstifadəçidən 3 ədəd alın. Onları artan sıra ilə düzən proqram tərtib edin.
 
 // let num1 = +prompt("Enter number 1");
 // let num2 = +prompt("Enter number 2");
@@ -76,7 +76,7 @@
 //     }
 // }
 
-// 6) Kinoteatra bilet satan proqram yazın. Şərtlər: Bilet qiyməti 10 AZN, yaş 18+ olmalıdır, yaş 18-dirsə minimum 3 bilet almalıdır.
+//?  6) Kinoteatra bilet satan proqram yazın. Şərtlər: Bilet qiyməti 10 AZN, yaş 18+ olmalıdır, yaş 18-dirsə minimum 3 bilet almalıdır.
 
 // let age = Number(prompt('Enter your age'));
 // let balance = 20;
@@ -112,7 +112,7 @@
 //     console.log("Please enter a valid number");
 // }
 
-// 7) Bankomat proqramı tərtib edin. 1-düyməsini seçdikdə balans ekranda göstərilsin. 2-düyməsini seçdikdə balansa mədaxil olunsun və balans ekranda göstərilsin, 3-düyməsini seçdikdə balansdan pul çıxarılsın. 4-düyməsini seçdikdə çıxış verilsin.
+//?  7) Bankomat proqramı tərtib edin. 1-düyməsini seçdikdə balans ekranda göstərilsin. 2-düyməsini seçdikdə balansa mədaxil olunsun və balans ekranda göstərilsin, 3-düyməsini seçdikdə balansdan pul çıxarılsın. 4-düyməsini seçdikdə çıxış verilsin.
 
 // let balance=100;
 

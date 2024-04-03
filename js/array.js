@@ -1,4 +1,4 @@
-// 1. Verilmiş array-in tək elementlərinin indeksini çapa verən proqram tərtib edin.
+//?  1. Verilmiş array-in tək elementlərinin indeksini çapa verən proqram tərtib edin.
 
 // let arr=[3,8,2,5,4,10,7,6]
 
@@ -8,7 +8,7 @@
 //     }
 // }
 
-// 2. Verilmiş array-in tək indeksli elementlərini çapa verən proqram tərtib edin.
+//?  2. Verilmiş array-in tək indeksli elementlərini çapa verən proqram tərtib edin.
 
 // let arr=[3,8,2,5,4,10,7,6]
 
@@ -18,7 +18,7 @@
 //     }
 // }
 
-// 3. Verilmiş array-in max elementini çapa verən proqram tərtib edin.
+//?  3. Verilmiş array-in max elementini çapa verən proqram tərtib edin.
 
 // let arr=[3,8,2,5,4,10,7,6]
 // let maxElement=arr[0]
@@ -29,7 +29,7 @@
 // }
 // console.log(maxElement)
 
-// 4. Verilmiş array-in cüt elementlərinin max elementini çapa verən proqram tərtib edin.
+//?  4. Verilmiş array-in cüt elementlərinin max elementini çapa verən proqram tərtib edin.
 
 // let arr=[3,8,2,5,4,10,7,6]
 // let maxEven=arr[0]
@@ -43,7 +43,7 @@
 // }
 // console.log(maxEven)
 
-// 5. Verilmiş array-in min elementinin indeksini çapa verən proqram tərtib edin.
+//?  5. Verilmiş array-in min elementinin indeksini çapa verən proqram tərtib edin.
 
 // let arr=[3,8,1,5,4,10,7,6]
 // let min=arr[0]
@@ -58,7 +58,7 @@
 // console.log(min)
 // console.log(index)
 
-// 6. Verilmiş array-in min elementi ilə max elementinin yerini dəyişən proqram tərtib edin
+//?  6. Verilmiş array-in min elementi ilə max elementinin yerini dəyişən proqram tərtib edin
 
 // let arr = [3, 8, 1, 5, 4, 10, 7, 6];
 
@@ -86,7 +86,7 @@
 
 // console.log(arr);
 
-// 7. Verilmiş array-in  cüt elementlərinin min elementi ilə tək elementlərinin max elementinin yerini dəyişən proqram tərtib edin
+//?  7. Verilmiş array-in  cüt elementlərinin min elementi ilə tək elementlərinin max elementinin yerini dəyişən proqram tərtib edin
 
 // let arr=[3,8,2,5,4,10,7,6]
 // let minEven=arr[0]
@@ -116,7 +116,7 @@
 // arr[maxOddIndex]=place
 // console.log(arr)
 
-// 8. Daxil olunan ədədin array-də olub olmadığını təyin edən proqram tərtib edin.
+//?  8. Daxil olunan ədədin array-də olub olmadığını təyin edən proqram tərtib edin.
 
 // let num=prompt("eded daxil et")
 // let arr=[3,8,2,5,4,10,7,6]
@@ -133,7 +133,7 @@
 //     console.log("reqem movcud deyil")
 // }
 
-// 9. Verilmiş array-də min və max elementi nəzərə almadan yerdə qalan bütün elementlərin cəmini tapın.
+//?  9. Verilmiş array-də min və max elementi nəzərə almadan yerdə qalan bütün elementlərin cəmini tapın.
 
 // let arr=[3,8,2,5,4,10,7,6]
 // let min=arr[0]
@@ -154,7 +154,7 @@
 // }
 // console.log(sum)
 
-// 10. Verilmiş array-in bool tipinde olan elementin qonsu elementlerini ekrana cixaran proqram yazin
+//?  10. Verilmiş array-in bool tipinde olan elementin qonsu elementlerini ekrana cixaran proqram yazin
 
 // let arr = [2, 9, -5, -4, "AzerBayCan", true, 12, "LANKARAN", "LimOn", 182, 4];
 
@@ -167,7 +167,7 @@
 //     }
 // }
 
-// 11. Verilmiş array-in ən uzun sözünü ekrana çıxaran proqram yazın
+//?  11. Verilmiş array-in ən uzun sözünü ekrana çıxaran proqram yazın
 
 // let arr = [2, 9, -5, -4, "AzerBayCan", true, 12, "LANKARAN", "LimOn", 182, 4];
 // let word = "";
@@ -180,7 +180,7 @@
 // }
 // console.log(word);
 
-// 19. Verilmiş array-in bütün hərfləri böyük olan sözün özünü və indeksini çapa çıxaran proqram yazın.
+//?  19. Verilmiş array-in bütün hərfləri böyük olan sözün özünü və indeksini çapa çıxaran proqram yazın.
 
 // let arr = [2, 9, -5, -4, "AzerBayCan", true, 12, "LANKARAN", "LimOn", 182, 4];
 // let word=[]
@@ -191,7 +191,7 @@
 // }
 // console.log(word)
 
-// 13. Verilmiş array-in 2-dən artıq böyük hərfi olan elementlərini çapa çıxaran proqram yazın
+//?  13. Verilmiş array-in 2-dən artıq böyük hərfi olan elementlərini çapa çıxaran proqram yazın
 
 // let arr = [2, 9, -5, -4, "AzerBayCan", true, 12, "LANKARAN", "LimOn", 182, 4];
 // let word=[]

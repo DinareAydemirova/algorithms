@@ -166,9 +166,11 @@
 //       console.log(factorial);
 // }
 
-let name = "Dinara";
-reverseName = "";
-for (let i = name.length - 1; i >= 0; i--) {
-  reverseName += name[i];
-}
-console.log(reverseName);
+//?  reversed order
+
+// let name = "Dinara";
+// reverseName = "";
+// for (let i = name.length - 1; i >= 0; i--) {
+//   reverseName += name[i];
+// }
+// console.log(reverseName);

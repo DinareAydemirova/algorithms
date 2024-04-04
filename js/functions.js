@@ -94,7 +94,46 @@
 
 //? 10. Array-in median və ədədi ortasını obyekt tərkibində return edən funksiya yazın. Median- ən kiçik element ilə ən böyük elementin ədədi ortasıdır.
 
+let array = [1, -34, 5, 87, -589, -21, 1, 35, 88, -3]
 
+
+
+function MedianAndAverage(arr) {
+    let Maxvalue = arr[0]
+    let Minvalue = arr[0]
+    let count = 0;
+    let sum = 0;
+    let max;
+    let min;
+    let objArray = []
+    let obj = {}
+
+    for (let i = 0; i < arr.length; i++) {
+        count++
+        sum += arr[i]
+        if (arr[i] > Maxvalue) {
+            Maxvalue = arr[i]
+            max = arr[i]
+            continue
+        }
+        if (arr[i] < Minvalue) {
+            Minvalue = arr[i]
+            min = arr[i]
+            continue
+        }
+    }
+    console.log(sum)
+    console.log(count)
+    let median = (max + min) / 2;
+    let average = sum / count;
+    obj.median = median;
+    obj.average = average;
+    objArray.push(obj)
+    return obj
+}
+
+
+console.log(MedianAndAverage(array))
 
 //? 11. Hər hansı bir cümlədə istənilən  baş hərflə olan simvolları birləşdirib qaytaran funksiya yazın. "My name is Gurban" - "MniG"
 // let sentence = "My name is Dinara";

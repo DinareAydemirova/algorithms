@@ -42,29 +42,9 @@
 // console.log(calculate(4, 6, '*'));
 // console.log(calculate(10, 2, '/'));
 // console.log(calculate(8, 0, '/'));
-// console.log(calculate(5, 3, '%'));
+
 
 //? 3. Sadəcə ölkə adlarının olduğu array-ı return edən funksiya yazın
-
-// function country(people) {
-//     var countryNames = [];
-//     for (var i = 0; i < people.length; i++) {
-//         var person = people[i];
-//         if (person.hasOwnProperty('country')) {
-//             countryNames.push(person.country);
-//         }
-//     }
-//     return countryNames;
-// }
-
-// var people = [
-//     { name: "Alice", age: 30, country: "USA" },
-//     { name: "Bob", age: 25, country: "Canada" },
-//     { name: "Charlie", age: 35, country: "UK" }
-// ];
-
-// var result = country(people);
-// console.log(result); 
 
 
 //? 4. Hərfə görə ölkə sayının olduğu object return edən funksiya yazın
@@ -99,6 +79,7 @@
 
 //? 9. Array-in bütün elementlərini kvadrata yüksəldib yeni array qaytaran proqram yazın.
 
+// const previousArray = [1, 2, 3, 4, 5]; 
 // function squareArray(arr) {
 //     const squaredArray = [];
 
@@ -108,26 +89,15 @@
 //     return squaredArray;
 // }
 
-// const previousArray = [1, 2, 3, 4, 5];
-// const squared = squareArray(previousArray);
-// console.log(squared); 
+// console.log(squareArray(previousArray)); 
 
 
 //? 10. Array-in median və ədədi ortasını obyekt tərkibində return edən funksiya yazın. Median- ən kiçik element ilə ən böyük elementin ədədi ortasıdır.
 
-// function findMedian(arr) {
-//     arr.sort((a, b) => a - b);
-//     const middleIndex = Math.floor(arr.length / 2);
 
-//     if (arr.length % 2 === 0) {
-//         return (arr[middleIndex - 1] + arr[middleIndex]) / 2;
-//     } else {
-//         return arr[middleIndex];
-//     }
-   
-// }
 
 //? 11. Hər hansı bir cümlədə istənilən  baş hərflə olan simvolları birləşdirib qaytaran funksiya yazın. "My name is Gurban" - "MniG"
+// let sentence = "My name is Dinara";
 
 // function firstLetter(sentence) {
 //     let result = '';
@@ -140,15 +110,56 @@
 //     }
 //     return result;
 // }
-
-// let sentence = "My name is Dinara";
-// let Letters = firstLetter(sentence);
-// console.log(Letters); 
+// console.log(firstLetter(sentence)); 
 
 
 //? 12. Cümlədə olan bütün sözləri ixtisar edən proqram tərtib edin. Əgər söz 4 hərfdən azdırsa o qısaldılmır. İxtisar zamanı başdakı və sondakı hərflər saxlanılır, ortada olan hərflərin sayı yazılır. Cümlədə heç bir durğu işarəsi olmayacaq. Məsələn qurban-q4n, stəkan-s4n, javascript-j8t
 
+// let sentence = "My name is Dinara";
+
+// function reduction(str){
+//     let words=str.split("")
+//     let newWord=[]
+//     for(let i=0; i<words.length;i++){
+//         if(words[i].length>4){
+//             newWord.push(words[i].charAt(0)+(words[i].length-2)+words[i][words[i].length-1])
+
+//         }else{
+//             newWord.push(words[i])
+//         }
+//     }
+//     return newWord
+// }
+// console.log(reduction(sentence))
+
+
 //? 13. İçərisində name və age key-ləri olan obyektlərdən təşkil olunmuş bir array var. Ən az yaşı olan ilə ən çox yaşı olan elementin yaşlarını və onların fərqini array şəklində qaytaran funksiya     yazın. Məsələn - [13,67,54]
+
+// let people = [
+//     { name: "Alice", age: 30 },
+//     { name: "Bob", age: 25 },
+//     { name: "Charlie", age: 35 }
+// ];
+// function findMinMaxAgeDifference(people) {
+//     var minAge = people[0].age;
+//     var maxAge = people[0].age;
+//     for (var i = 1; i < people.length; i++) {
+//         var currentAge = people[i].age;
+//         if (currentAge < minAge) {
+//             minAge = currentAge;
+//         }
+//         if (currentAge > maxAge) {
+//             maxAge = currentAge;
+//         }
+//     }
+
+//     var difference = maxAge - minAge;
+
+//     return [minAge, maxAge, difference];
+// }
+
+// console.log(findMinMaxAgeDifference(people));
+
 
 //? 14. N faktorialı hesaplayan funksiya yazın.
 

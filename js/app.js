@@ -178,11 +178,10 @@
 
 
 
-const string="hello world"
-console.log(string)
+// const string="hello world"
+// console.log(string)
 
-let result
-
+// let result
 
 // result=string.charAt(1)
 // result=string.charAt(string.length-1)
@@ -208,13 +207,5 @@ let result
 
 
 
-
-
-
-
-
-
-
-
 // console.log( "c".localeCompare("b"))
-console.log(result)
+// console.log(result)

@@ -175,9 +175,6 @@
 // }
 // console.log(reverseName);
 
-
-
-
 // const string="hello world"
 // console.log(string)
 
@@ -203,9 +200,59 @@
 // result=string.toLocaleUpperCase()
 // result=string.trim()
 
-
-
-
-
 // console.log( "c".localeCompare("b"))
 // console.log(result)
+
+// let arr=[20,55,44,3,6,16,23,68,80]
+// let sum=0
+// function division(arr){
+//     for (let i = 0; i < arr.length; i++) {
+//       if(arr[i]%20==0){
+//         sum+=arr[i]
+//       }
+
+//     }
+//     return sum
+// }
+// console.log(division(arr))
+
+// let sentence= prompt("enter the sentence")
+// let letter=prompt("enter thr letter")
+// let count=0
+// function TheNumberOfLetter(sentence,letter){
+//   for (let i = 0; i < sentence.length; i++) {
+//       if(letter==sentence[i]){
+//         count++
+
+//       }
+
+//   }
+//   return count
+// }
+// console.log(TheNumberOfLetter(sentence))
+
+// let numbers=[23,341,4000,9,99,817,0]
+// let count =0
+// function digitCount(numbers){
+//     for (let i = 0; i < numbers.length; i++) {
+
+//     }
+// }
+// digitCount(numbers)
+
+let sentence = "hello my name is Dinara";
+function LongWord(sentence) {
+  let word = sentence.split(" ");
+  let value = 0;
+  let y;
+
+  for (let i = 0; i < word.length; i++) {
+    let x = word[i];
+    if (x.length > value) {
+      value = x;
+      y = x;
+    }
+  }
+  return y;
+}
+console.log(LongWord(sentence));

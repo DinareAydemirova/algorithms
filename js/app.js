@@ -625,22 +625,32 @@ let students = [
 // }
 // password(students);
 
+// let text = "dfjdfk,dfjdhfg fjklhdfg dfjkghd";
+// function count(str) {
+//   let count = 0;
+//   let string = str.split(" ");
+//   for (let i = 0; i < string.length; i++) {
+//     count++;
+//   }
+//   return count;
+// }
+// console.log(count(text));
 
 
-function password(arr) {
-    let element;
-    for (let i = 0; i < students.length; i++) {
-      element = students[i];
-      let teacherBox
-      if (element.age==20) {
-        for (let j = 0; j < element.teacher.length; j++) {
-           
-           teacherBox+= arr[i].teacher[j].name+" "
-        }
-       
-      }
-      console.log(`ad: ${arr[i].name} teacher: ${teacherBox.name}`);
+let word="aiueyr"
 
-    }
+
+function findSait(str){
+  let saits=['a','e','i','u']
+  let count=0
+  for (let i = 0; i < saits.length; i++) {
+   let char=word.toLowerCase()
+   if(char.includes(word[i])){
+    count++
+   }
   }
-  password(arr);
+  return count
+}
+console.log(findSait());
+
+

@@ -636,21 +636,171 @@ let students = [
 // }
 // console.log(count(text));
 
+// let word="aiueyr"
 
-let word="aiueyr"
+// function findSait(str){
+//   let saits=['a','e','i','u']
+//   let count=0
+//   for (let i = 0; i < saits.length; i++) {
+//    let char=word.toLowerCase()
+//    if(char.includes(word[i])){
+//     count++
+//    }
+//   }
+//   return count
+// }
+// console.log(findSait());
 
+// let product1={
+//   name: "Alma",
+//   category:"Fruit",
+//   price:12.5,
+//   weight:50
 
-function findSait(str){
-  let saits=['a','e','i','u']
-  let count=0
-  for (let i = 0; i < saits.length; i++) {
-   let char=word.toLowerCase()
-   if(char.includes(word[i])){
-    count++
-   }
-  }
-  return count
+// }
+// let product2={
+//   name: "Armud",
+//   category:"Fruit",
+//   price:15.0,
+//   weight:30
+
+// }
+// let product3={
+//   name: "Nar",
+//   category:"Fruit",
+//   price:25.0,
+//   weight:18
+
+// }
+// let product4={
+//   name: "sogan",
+//   category:"vegetable",
+//   price:1.5,
+//   weight:4
+
+// }
+// let product5={
+//   name: "pomidor",
+//   category:"vegetable",
+//   price:2.5,
+//   weight:40
+
+// }
+
+// let products=[product1,product2,product3,product4,product5]
+// let name=prompt("enter food")
+// let choosenProduct=""
+// function foodDetails(array){
+//   for (let i = 0; i < array.length; i++) {
+//     let product=products[i]
+//     if(product.name.toUpperCase().invludes(name.toUpperCase())){
+//       choosenProduct=product
+//     }
+//   }
+// }
+
+// function writeProduct(product){
+//   console.log(
+//     `
+//     product name-${product.name}
+//     product category-${product.category}
+//     product price-${product.price}
+//     product weight-${product.weight}
+
+//     `
+//   );
+// }
+
+// let word='hjgjg'
+
+// function polindrom(str){
+//   let string = str.split(" ").reverse().join("");
+//   for (let i = 0; i < string.length; i++) {
+
+//     if(string===word){
+//       console.log("is polindrom");
+
+//     }else{
+//       console.log("not polindrom")
+//     }
+
+//   }
+// }
+// polindrom(word)
+
+// console.log(Math.round(4.8));
+// console.log(Math.round(4.3));
+// console.log(Math.ceil(4.6));
+// console.log(Math.ceil(4.3));
+// console.log(Math.floor(4.6));
+// console.log(Math.floor(4.4));
+// console.log(Math.max(1,4,5,2,35,6));
+// console.log(Math.max("1",'4',"5",'2',"35","6"));
+
+// let tarix= new Date()
+
+// console.log(tarix)
+// console.log(tarix.getFullYear())
+// console.log(tarix.getMonth())
+// console.log(tarix.getDay())
+// console.log(tarix.getHours())
+// console.log(tarix.getMinutes())
+// console.log(tarix.getSeconds())
+// console.log(tarix.getMilliseconds())
+// console.log(tarix.getTime())
+
+// let user = {
+//   name: "dinara",
+//   age: 19,
+//   email: "dinaraaydamirove@gmail.com",
+//   address: {
+//     country: "az",
+//     city: "baku",
+//   },
+// };
+
+//  let getUser=(user)=>{
+//   Object.entries(user).forEach(([key , values])=>{
+//    if(typeof values==="object"){
+//     console.log(`${key}:`)
+//     Object.entries(values).forEach(([nestedKey, nestedValue])=>{
+//       console.log(`${nestedKey} ${nestedValue}`)
+//     })
+//    }else{
+//     console.log(`${key} ${values}`)
+//    }
+//   })
+// }
+// getUser(user)
+
+// let number = prompt("ehed daxil et");
+// let array = [1, 28, 33, 4, 55, 6, 7, 8];
+
+// let getCount = (array, number) => {
+//   let countArr = array.filter((elem) => elem > number).length;
+//   console.log(countArr);
+// };
+// getCount(array, number);
+
+let array = [];
+
+for (let i = 0; i < 10; i++) {
+  array.push(Math.floor(Math.random() * 10));
 }
-console.log(findSait());
+console.log(array);
 
+let minValue = Math.min(...array);
+let maxValue = Math.max(...array);
 
+console.log(minValue);
+console.log(maxValue);
+
+let sum = array.reduce((acc, elem) => acc + elem, 0);
+console.log(sum);
+
+let average= sum/array.length
+console.log(average)
+
+let squaredArr=array.map((num)=>Math.pow(num ,2))
+
+console.log(squaredArr)
